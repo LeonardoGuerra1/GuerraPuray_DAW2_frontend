@@ -47,7 +47,7 @@ public class RueditasController {
                 return "resultado";
             }
             else if (response.id() == -99) { //ERROR INTERNO DESDE BACKEND
-                PlacaModel placaModel = new PlacaModel("99", "ERROR INTERNO BACKEND CAUSA.", null);
+                PlacaModel placaModel = new PlacaModel("99", "ERROR INTERNO DESDE BACKEND.", null);
                 model.addAttribute("placaModel", placaModel);
                 return "resultado";
             }
